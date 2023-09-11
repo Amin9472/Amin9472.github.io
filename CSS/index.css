@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.bg_color{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.card{
+    background-color: #7cfaca;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+a{
+    width: 7rem;
+}
+
+.status1_text{
+background-color: #fff600!important;
+}
+
+.status2_text{
+    background-color: #ffc302 !important;
+}
+
+.status3_text{
+    background-color: #ff8f00 !important;
+}
+
+.status4_text{
+    background-color: #ff5b00 !important;
+}
+
+.status5_text{
+    background-color: #ff0505 !important;
+}
+
+.status6_text{
+    background-color: #000000!important;
+    color: white!important;
+}
+
+.result{
+    border: 5px black;
+    border-style: dashed;
+    border-radius: 5px;
+    
+}
+.profile{
+    color: black;
+}
+
+td:nth-of-type(1),td:nth-of-type(3),td:nth-of-type(5),td:nth-of-type(7),td:nth-of-type(9),td:nth-of-type(11)
+{
+    width: 15%!important;
+}
